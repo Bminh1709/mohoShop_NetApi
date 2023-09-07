@@ -13,6 +13,7 @@ namespace mohoShop.Helpers
             CreateMap<Product, ProductDto>();
             CreateMap<ProductDtoWCatId, Product>();
             CreateMap<ProductDtoUpdate, Product>();
+            CreateMap<CustomerDto, Customer>();
 
         }
     }

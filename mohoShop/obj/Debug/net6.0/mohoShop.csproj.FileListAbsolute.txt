@@ -67,3 +67,4 @@ D:\Project IT\mohoShop\mohoShop\obj\Debug\net6.0\mohoShop.genruntimeconfig.cache
 D:\Project IT\mohoShop\mohoShop\obj\Debug\net6.0\ref\mohoShop.dll
 D:\Project IT\mohoShop\mohoShop\bin\Debug\net6.0\AutoMapper.dll
 D:\Project IT\mohoShop\mohoShop\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Project IT\mohoShop\mohoShop\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
