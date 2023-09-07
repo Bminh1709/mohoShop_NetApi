@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
@@ -22,6 +23,7 @@ namespace mohoShop.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult GetCategories(int page)
         {
             var categories = _mapper.Map<List<CategoryDto>>(_categoryRepository.GetCategories(page));

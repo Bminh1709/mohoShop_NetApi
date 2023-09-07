@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace mohoShop.Models
+namespace mohoShop.Dto
 {
-    public class Customer
+    public class CustomerDto
     {
-        public int Id { get; set; }
+        [Required]
         public string FullName { get; set; }
         [Required]
         [EmailAddress]
@@ -14,7 +14,5 @@ namespace mohoShop.Models
         public string Password { get; set; }
         [Phone]
         public string PhoneNumber { get; set; }
-        public ICollection<Order> Orders { get; set; }
-        public ICollection<Cart> Carts { get; set; }
     }
 }
